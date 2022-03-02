@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    background-color: rgb(54, 54, 88);
+    color: white;
+}
+
+main{
+    display: flex;
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 50rem;
+   
+}
+
+
+section h3{
+    text-align: center;
+}
+
+#list{
+    flex: 2;
+}
+
+#form{
+    flex: 1;
+}
+
+#iImportant {
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+}
+
+#iImportant.fas{
+    color: red;
+}
+
+
+
+.task {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: rgba(243, 243, 243, 0.85);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px 2px rgb(91 47 96);
+}
+
+
+.task .info {
+    flex: 4;
+    padding-top: 15px;
+}
+
+.task .info .h5 {
+    margin-bottom: 0;
+}
+
+.task .date {
+    flex: 1;
+    text-align: center;
+}
+
+.task .extra {
+    flex: 2;
+    text-align: center;
+}
+
+.task .extra label {
+    display: block;
+}
+
+.task button {
+    flex: 1;
+}
